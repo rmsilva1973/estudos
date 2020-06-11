@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    font-family: sans-serif;
+}
+
+main {
+    width: 100%;
+    max-width: 400px;
+    margin: 32px auto;
+    background-color: #ffc;
+    padding: 0 10px;
+    border: 1px solid #999999;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px 0px #666;
+}
+
+.topo,.rodape {
+    /* border: 1px solid red; */
+    text-align: center;
+    background: #222222;
+    color: #ffffff;
+    line-height: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    height: 30px;
+}
+
+input:focus {
+    outline: 2px solid lime;
+}
+
+input[type="submit"] {
+    background-color: #93cdff;
+    border-color: #000046;
+}
+
+.ajuda {
+    overflow: auto;
+    width: calc(100% + 20px);
+    background: #ffdead;
+    margin-left: -10px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top: 1px solid #999999;
+}
+
+.ajuda p:first-child {
+    width: 50%;
+    float: left;
+    padding-left: 10px
+}
+
+.ajuda p:last-child {
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+} 
+
+.ajuda a, .ajuda a:visited, .ajuda a:active {
+    text-decoration: none;
+    color: #442900
+}
+
+.ajuda a:hover {
+    text-decoration: underline;
+    color: #5f3900;
+}
+
+label {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+
+main {
+    border: 1px solid blue;
+} */
